@@ -1,65 +1,79 @@
-<h1 align="center">📊 Jupyter Telecom X2: Previsão de Evasão de Clientes (Churn)</h1>
-
-<div align="center">
-  <img src="img1.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
-</div>
-
+<h1 align="center">📊 Telecom X2 – Previsão de Evasão de Clientes (Churn)</h1> <div align="center"> <img src="img1.jpg" alt="Visão geral do projeto Telecom X" width="600"/> </div> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/> </p>
 🎯 Visão Geral
-Bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ORACLE ONE – Alura (Turma G8). Este projeto tem como objetivo analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
 
-✨ Objetivo desta Etapa
-Nesta fase, focamos em:
+Bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ORACLE ONE – Alura (Turma G8).
 
-<p>✅ Preparação dos dados para Machine Learning</p>
-<p>✅ Criação, avaliação e interpretação de modelos preditivos de churn</p>
+Este projeto tem como objetivo analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X na redução de sua alta taxa de cancelamentos.
 
-<p>🔍 Fluxo de Trabalho</p>
-<p>✔️ 1. Extração dos dados tratados</p>
-Importação dos arquivos já tratados na fase de ETL para iniciar a modelagem preditiva.
+✨ Objetivos desta Etapa
 
-<p>✔️ 2. Análise de correlação e seleção de variáveis</p>
-Identificação das variáveis com maior impacto no cancelamento de clientes.
+✅ Preparação avançada dos dados para Machine Learning
+✅ Criação, avaliação, comparação e interpretação de modelos preditivos de churn
+✅ Construção de aplicação web com Streamlit para deploy do modelo
 
-<p>✔️ 3. Preparação para modelagem</p>
-Transformação de variáveis categóricas em dummies (OneHotEncoder), tratamento de valores ausentes e exclusão de colunas não preditivas, como IDs.
+🔍 Fluxo de Trabalho
 
-<p>✔️ 4. Split dos dados</p>
-Divisão dos dados em treino (70%) e teste (30%) para garantir reprodutibilidade e avaliação justa dos modelos.
+Etapa	Descrição
+1. Extração dos dados tratados	Importação dos arquivos já tratados na fase de ETL.
+2. Análise de correlação e seleção de variáveis	Heatmap e seleção de variáveis mais impactantes no churn.
+3. Preparação para modelagem	OneHotEncoder, tratamento de valores ausentes e exclusão de colunas não preditivas.
+4. Split dos dados	Divisão treino (70%) e teste (30%) garantindo reprodutibilidade.
+5. Modelagem preditiva	Regressão Logística como baseline + Random Forest para robustez.
+6. Avaliação e comparação de modelos	Accuracy, Precision, Recall, F1-score e ROC-AUC.
+7. Interpretação (Feature Importances)	Identificação das variáveis que mais influenciam o churn.
+8. Visualizações de suporte	Gráficos de barras e linhas para interpretação clara dos insights.
+9. Deploy com Streamlit	App para upload de novos dados e geração de previsões em tempo real.
 
-<p>✔️ 5. Criação dos modelos preditivos</p>
-Foram criados dois modelos principais:
+📈 Resultados
 
-Regressão Logística: Utilizada como baseline, com alta interpretabilidade e bom desempenho em problemas de classificação binária.
+🔬 Comparativo de Modelos
+Modelo	Accuracy	Precision	Recall	F1-Score	ROC-AUC
+Regressão Logística	Melhor desempenho	Superior ao RF	Alta	Alta	Excelente
+Random Forest	Bom	Médio	Médio	Médio	Bom
 
-Random Forest: Escolhido por sua robustez, capacidade de lidar com dados não linearmente separáveis e fornecimento de insights sobre a importância das variáveis.
+✅ Conclusão: A Regressão Logística apresentou desempenho superior e interpretabilidade mais clara para o negócio.
 
-<p>✔️ 6. Avaliação dos modelos</p>
-Métricas utilizadas: accuracy, precision, recall, f1-score e ROC-AUC, garantindo análise completa da performance preditiva.
+🔎 Principais Insights
 
-<p>✔️ 7. Interpretação e conclusões</p>
-Foram extraídos insights estratégicos sobre os fatores que mais influenciam o churn, além de recomendações práticas para o negócio.
+Cobrança Total: Clientes com maior cobrança total (planos completos/pacotes agregados) têm menor taxa de cancelamento.
 
-<p>📝 Resumo das Conclusões</p>
-<p>🔹 Cobrança Total: Clientes com maior cobrança total (planos completos/pacotes agregados) têm menor taxa de cancelamento.</p>
-<p>🔹 Meses com a Empresa: Clientes com mais tempo de relacionamento apresentam menor churn, reforçando a importância de estratégias de fidelização.</p>
-<p> 🔹 Tipo de Contrato: Clientes com contrato mensal têm maior probabilidade de cancelar, enquanto contratos anuais ou bianuais demonstram retenção superior.</p>
+Meses com a Empresa: Clientes com mais tempo de relacionamento apresentam menor churn, evidenciando a importância de estratégias de fidelização.
 
-<p>💡 Gráficos para suporte às conclusões</p>
-<p>Foram gerados gráficos de barras e linhas para demonstrar visualmente o impacto destas variáveis:
+Tipo de Contrato: Contratos mensais têm maior churn; contratos anuais/bianuais demonstram maior retenção.
 
-Cancelamento por tipo de contrato
+📊 Visualizações Criadas
 
-Cancelamento por meses com a empresa
+✔️ Cancelamento por tipo de contrato
+✔️ Cancelamento por meses com a empresa
+✔️ Cancelamento por faixa de cobrança total
 
-Cancelamento por faixa de cobrança total
+🛠️ Tecnologias Utilizadas
 
-<p>🛠️ Tecnologias Utilizadas</p>
-<p>✅ Python</p>
-<p>✅ Pandas: Manipulação e análise de dados</p>
-<p>✅ Seaborn & Matplotlib: Visualizações estatísticas e personalizadas</p>
-<p>✅ Scikit-learn: Construção, avaliação e interpretação dos modelos de Machine Learning</p>
+Python
 
-<p>📌 Conclusão</p>
+Pandas – Manipulação e análise de dados
 
-<p>Este projeto aplicou com sucesso as técnicas de preparação de dados, modelagem e análise preditiva, consolidando conhecimentos fundamentais da especialização em Data Science no Programa Oracle ONE.</p>
+Seaborn &
+Matplotlib – Visualizações estatísticas
+
+Scikit-learn – Construção, avaliação e interpretação dos modelos
+
+Streamlit – Deploy do modelo como aplicação web
+
+🚀 Deploy do Modelo
+
+✔️ Exportação como pickle (.pkl)
+✔️ Criação de app interativo com Streamlit
+✔️ Preparação para futuros deploys no Vercel e integração com PostgreSQL para ingestão de novos clientes
+
+📌 Conclusão
+
+Este projeto aplicou com sucesso:
+
+✅ Preparação e limpeza avançada de dados
+✅ Modelagem preditiva e comparação de algoritmos
+✅ Interpretação estratégica para o negócio
+✅ Deploy de modelo como aplicação web
+
+Consolidando conhecimentos fundamentais de Data Science no Programa Oracle ONE – Alura.
 
