@@ -1,4 +1,4 @@
-📊 Jupyter Telecom X2: Previsão de Evasão de Clientes (Churn)
+<h1 align="center">📊 Jupyter Telecom X2: Previsão de Evasão de Clientes (Churn)</h1>
 <img src="img1'.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
 🎯 Visão Geral
 Bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ONE – Alura (Turma G8). Este projeto tem como objetivo analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
