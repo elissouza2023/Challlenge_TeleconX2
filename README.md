@@ -1,61 +1,61 @@
-Jupiter Telecom X2: Previsão de Evasão de Clientes (Churn)
-
+📊 Jupyter Telecom X2: Previsão de Evasão de Clientes (Churn)
 <img src="img1'.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
+🎯 Visão Geral
+Bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ONE – Alura (Turma G8). Este projeto tem como objetivo analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
 
-📊 Projeto Telecom X – Preparação de Dados e Modelagem Preditiva
-Olá! Seja bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ONE – Alura, turma G8. Este projeto visa analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
-
-🎯 Objetivo desta Etapa
-Nesta fase do projeto, focamos em:
+✨ Objetivo desta Etapa
+Nesta fase, focamos em:
 
 ✅ Preparação dos dados para Machine Learning
-✅ Criação e avaliação de modelos preditivos de churn
+✅ Criação, avaliação e interpretação de modelos preditivos de churn
 
-O fluxo seguido foi:
+🔍 Fluxo de Trabalho
+✔️ 1. Extração dos dados tratados
+Importação dos arquivos já tratados na fase de ETL para iniciar a modelagem preditiva.
 
-Extração dos arquivos tratados:
-Os dados tratados, preparados previamente na fase de ETL, foram importados para iniciar a modelagem.
+✔️ 2. Análise de correlação e seleção de variáveis
+Identificação das variáveis com maior impacto no cancelamento de clientes.
 
-Correlação e seleção de variáveis:
-Realizamos análises de correlação para identificar as variáveis mais relevantes para prever o cancelamento de clientes.
+✔️ 3. Preparação para modelagem
+Transformação de variáveis categóricas em dummies (OneHotEncoder), tratamento de valores ausentes e exclusão de colunas não preditivas, como IDs.
 
-Preparação para modelagem:
-Variáveis categóricas foram convertidas em variáveis dummy (OneHotEncoder), valores ausentes tratados, e variáveis não preditivas removidas.
+✔️ 4. Split dos dados
+Divisão dos dados em treino (70%) e teste (30%) para garantir reprodutibilidade e avaliação justa dos modelos.
 
-Split dos dados:
-Separação em conjuntos de treino (70%) e teste (30%) para garantir reprodutibilidade e avaliação justa dos modelos.
+✔️ 5. Criação dos modelos preditivos
+Foram criados dois modelos principais:
 
-Criação dos modelos preditivos:
-Foram criados modelos de Regressão Logística e Random Forest, com o objetivo de comparar desempenho e interpretar as variáveis mais influentes.
+Regressão Logística: Utilizada como baseline, com alta interpretabilidade e bom desempenho em problemas de classificação binária.
 
-Avaliação dos modelos:
-As métricas utilizadas incluíram accuracy, precision, recall, f1-score e ROC-AUC, garantindo uma análise completa da performance preditiva.
+Random Forest: Escolhido por sua robustez, capacidade de lidar com dados não linearmente separáveis e fornecimento de insights sobre a importância das variáveis.
 
-Interpretação e conclusões:
-O projeto foi finalizado com insights claros sobre os fatores que mais influenciam a evasão e recomendações práticas para a equipe da Telecom X.
+✔️ 6. Avaliação dos modelos
+Métricas utilizadas: accuracy, precision, recall, f1-score e ROC-AUC, garantindo análise completa da performance preditiva.
 
-📝 Relatório Final e Considerações
-Ao final desta etapa, foi elaborado um relatório detalhado contendo:
+✔️ 7. Interpretação e conclusões
+Foram extraídos insights estratégicos sobre os fatores que mais influenciam o churn, além de recomendações práticas para o negócio.
 
-Introdução: Problema de negócio e objetivo da análise.
+📝 Resumo das Conclusões
+🔹 Cobrança Total: Clientes com maior cobrança total (planos completos/pacotes agregados) têm menor taxa de cancelamento.
+🔹 Meses com a Empresa: Clientes com mais tempo de relacionamento apresentam menor churn, reforçando a importância de estratégias de fidelização.
+🔹 Tipo de Contrato: Clientes com contrato mensal têm maior probabilidade de cancelar, enquanto contratos anuais ou bianuais demonstram retenção superior.
 
-Processo de preparação dos dados: Extração, limpeza, transformação e seleção de variáveis.
+💡 Gráficos para suporte às conclusões
+Foram gerados gráficos de barras e linhas para demonstrar visualmente o impacto destas variáveis:
 
-Criação dos modelos: Descrição dos modelos utilizados, razões da escolha e parâmetros aplicados.
+Cancelamento por tipo de contrato
 
-Avaliação dos modelos: Comparativo de métricas e análise dos resultados.
+Cancelamento por meses com a empresa
 
-Conclusões e recomendações: Fatores mais relevantes para o churn e sugestões práticas para redução da evasão.
+Cancelamento por faixa de cobrança total
 
 🛠️ Tecnologias Utilizadas
 ✅ Python
-✅ Pandas – Manipulação e análise de dados
-✅ Seaborn e Matplotlib – Visualizações estatísticas e personalizadas
-✅ Scikit-learn – Construção e avaliação dos modelos de Machine Learning
+✅ Pandas: Manipulação e análise de dados
+✅ Seaborn & Matplotlib: Visualizações estatísticas e personalizadas
+✅ Scikit-learn: Construção, avaliação e interpretação dos modelos de Machine Learning
 
-🔜 Próximos Passos (Futuros)
-Implementação de técnicas avançadas de balanceamento de classes (ex.: SMOTE)
+📌 Conclusão
 
-Otimização de hiperparâmetros (GridSearchCV)
+Este projeto aplicou com sucesso as técnicas de preparação de dados, modelagem e análise preditiva, consolidando conhecimentos fundamentais da especialização em Data Science no Programa Oracle ONE.
 
-Deploy do modelo em ambiente produtivo para previsão em tempo real
