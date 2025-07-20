@@ -1,0 +1,6 @@
+http://localhost:8501/
+
+ Se quiser desativar esse prompt futuramente
+Você pode executar:
+
+streamlit config set browser.gatherUsageStats false
