@@ -53,9 +53,7 @@ Conclusões e recomendações: Fatores mais relevantes para o churn e sugestões
 ✅ Seaborn e Matplotlib – Visualizações estatísticas e personalizadas
 ✅ Scikit-learn – Construção e avaliação dos modelos de Machine Learning
 
-<h2>🔜 Próximos Passos (Futuros)</h2>
-Implementação de técnicas avançadas de balanceamento de classes (ex.: SMOTE)
-
-Otimização de hiperparâmetros (GridSearchCV)
+<h2>🔜 Deploy </h2>
 
 Deploy do modelo em ambiente produtivo para previsão em tempo real
+https://challlengeteleconx2-hfrwbyagjzfrvvft4vzznr.streamlit.app/
