@@ -1,6 +1,6 @@
 <h1>Jupiter Telecom X2: Previsão de Evasão de Clientes (Churn)</h1>
 
-<img src="img1'.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
+<img src="img1.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
 
 <h2>📊 Projeto Telecom X – Preparação de Dados e Modelagem Preditiva</h2>
 Olá! Seja bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ONE – Alura, turma G8. Este projeto visa analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
