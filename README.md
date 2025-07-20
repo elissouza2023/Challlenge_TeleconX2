@@ -1,11 +1,11 @@
-Jupiter Telecom X2: Previsão de Evasão de Clientes (Churn)
+<h1>Jupiter Telecom X2: Previsão de Evasão de Clientes (Churn)</h1>
 
 <img src="img1'.jpg" alt="Visão geral do projeto Telecom X" width="600"/>
 
-📊 Projeto Telecom X – Preparação de Dados e Modelagem Preditiva
+<h2>📊 Projeto Telecom X – Preparação de Dados e Modelagem Preditiva</h2>
 Olá! Seja bem-vindo(a) ao repositório do Projeto Telecom X2, parte do desafio de Data Science do Programa ONE – Alura, turma G8. Este projeto visa analisar a evasão de clientes (churn) e construir modelos preditivos eficazes para apoiar a Telecom X, uma empresa de telecomunicações, na redução de sua alta taxa de cancelamentos.
 
-🎯 Objetivo desta Etapa
+<h2>🎯 Objetivo desta Etapa</h2>
 Nesta fase do projeto, focamos em:
 
 ✅ Preparação dos dados para Machine Learning
@@ -34,7 +34,7 @@ As métricas utilizadas incluíram accuracy, precision, recall, f1-score e ROC-A
 Interpretação e conclusões:
 O projeto foi finalizado com insights claros sobre os fatores que mais influenciam a evasão e recomendações práticas para a equipe da Telecom X.
 
-📝 Relatório Final e Considerações
+<h2>📝 Relatório Final e Considerações</h2>
 Ao final desta etapa, foi elaborado um relatório detalhado contendo:
 
 Introdução: Problema de negócio e objetivo da análise.
@@ -47,13 +47,13 @@ Avaliação dos modelos: Comparativo de métricas e análise dos resultados.
 
 Conclusões e recomendações: Fatores mais relevantes para o churn e sugestões práticas para redução da evasão.
 
-🛠️ Tecnologias Utilizadas
+<h2>🛠️ Tecnologias Utilizadas</h2>
 ✅ Python
 ✅ Pandas – Manipulação e análise de dados
 ✅ Seaborn e Matplotlib – Visualizações estatísticas e personalizadas
 ✅ Scikit-learn – Construção e avaliação dos modelos de Machine Learning
 
-🔜 Próximos Passos (Futuros)
+<h2>🔜 Próximos Passos (Futuros)</h2>
 Implementação de técnicas avançadas de balanceamento de classes (ex.: SMOTE)
 
 Otimização de hiperparâmetros (GridSearchCV)
