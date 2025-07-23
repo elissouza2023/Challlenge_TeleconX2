@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn  
+
 
 # Título do app
 st.title('Telecom X2 – Previsão de Evasão de Clientes (Churn)')
